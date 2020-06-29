@@ -1,0 +1,53 @@
+.reissuance {
+    &__btn{
+        margin-top: $offset_l;
+        display: flex;
+    }
+
+    &__item {
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__image {
+        height: 120%;
+        width: auto;
+        position: absolute;
+        margin-left: -10%;
+        top: -10%;
+    }
+
+    &__image-wrapper {
+        position: relative;
+    }
+
+    &__title {
+        color: $black;
+        font-size: $xs-title_s;
+        line-height: $xs-line-height;
+        text-transform: uppercase;
+
+        @include media-query(md) {
+            font-size: $title_s;
+            line-height: $line-height_m;
+        }
+    }
+
+    &__description {
+        font-size: $font_l;
+        line-height: $line-height;
+        font-weight: 300;
+        color: $black;
+        border-top: 1px dashed $black;
+        margin-top: $offset_m;
+        padding-top: #{$offset_m - 1px};
+    }
+}
+
+.reissuance__title b {
+    font-size: $xs-title_m;
+
+    @include media-query(md) {
+        font-size: $title_m;
+    }
+}

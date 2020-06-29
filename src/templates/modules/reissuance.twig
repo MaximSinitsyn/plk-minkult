@@ -1,0 +1,18 @@
+<div class="row reissuance white-block white-block_big">
+    <div class="col xs-off lg-6 reissuance__image-wrapper">
+        {% include "utils/image.twig" with { "__scope": __scope.image, "__class": "reissuance__image" } %}
+    </div>
+    <div class="col xs-12 lg-6 xs-center reissuance__item">
+        <div class="reissuance__title">
+            {{ __scope.title | raw }}
+        </div>
+        <div class="reissuance__description">
+            {{ __scope.description }}
+        </div>
+        <div class="reissuance__btn xs-center">
+            <div class="btn" data-modal='{"name": "formDefault", "id": "form"}' onclick="yaCounter48293603.reachGoal('get_license'); return true;">
+                {{btn.default}}
+            </div>
+        </div>
+    </div>
+</div>

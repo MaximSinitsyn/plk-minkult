@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+.body {
+    background: linear-gradient(to bottom, #1a77bc 0%, #26a7e0 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+
+    &__container {
+        background: linear-gradient(to right, #0560a3 25%, transparent 100%);
+        position:relative;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    &_noTouch &__container {
+        -webkit-overflow-scrolling: auto;
+    }
+}
+
+.row + .row {
+    min-width: unset;
+}
+
+.header_scroll .row {
+    min-width: auto;
+}

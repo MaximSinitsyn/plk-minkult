@@ -1,0 +1,34 @@
+{
+    "items": {
+        "data": {
+            "home": {
+                "name": "Лицензия Минкультуры",
+                "link": "#home"  
+            },
+            "reissuance": {
+                "name": "Переоформление лицензии",
+                "link": "#reissuance"
+            },
+            "garant": {
+                "name": "Гарантии",
+                "link": "#pochemy_my"
+            },
+            "work": {
+                "name": "Виды работ",
+                "link": "#vidy_rabot"
+            },
+            "interactions": {
+                "name": "Порядок взаимодействия",
+                "link": "#process_raboty"
+            },
+            "reception": {
+                "name": "Получение лицензии",
+                "link": "#reception"  
+            },
+            "contacts": {
+                "name": "Контакты",
+                "link": "#contacts"  
+            }
+        }
+    }
+}

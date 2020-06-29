@@ -1,0 +1,27 @@
+.site-title {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    width: 100%;
+
+    // &__caption {}
+
+    &__description {
+        margin-top: $offset_m;
+        border-top: 1px dashed $white;
+        padding-top: #{$offset_m - 1px};
+        font-size: $font_m;
+        margin-right: 20%;
+        margin-left: 20%;
+        font-weight: 100;
+
+        @include media-query(sm) {
+            font-size: $font_h;
+        }
+
+        @include media-query(hg) {
+            margin-right: 40%;
+            margin-left: 0;
+        }
+    }
+}
